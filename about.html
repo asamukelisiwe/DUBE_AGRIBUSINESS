@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <meta
+      name="description"
+      content="Learn about Dube Agribusiness. Our story, mission, values, and the passionate team behind South Africa's growing agri-startup."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="index.html" class="navbar-logo">
+          <div class="logo-img-wrap">
+            <!-- LOGO: To update the logo, set the src attribute below to your image path and remove display:none -->
+            <img
+              src=""
+              alt="Dube Agribusiness Logo"
+              class="logo-img"
+              id="logoImg"
+              style="display: none"
+            />
+            <span class="logo-placeholder" id="logoPlaceholder">
+              <i class="fa-solid fa-seedling"></i>
+            </span>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Dube Agribusiness</span>
+            <span class="logo-tagline">Rooted in Agriculture</span>
+          </div>
+        </a>
+        <nav class="navbar-nav">
+          <a href="../index.html" class="nav-link">Home</a>
+          <a href="../About/about.html" class="nav-link active">About</a>
+          <a href="../Products/products.html" class="nav-link">Products</a>
+          <a href="../Supply/supply.html" class="nav-link">Supply</a>
+          <a href="../Contact/contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="navbar-cta">
+          <a href="../Contact/contact.html" class="btn btn-primary"
+            ><i class="fa-solid fa-phone-volume"></i> Get in Touch</a
+          >
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="../About/about.html" class="nav-link">About Us</a>
+      <a href="../Products/products.html" class="nav-link">Products</a>
+      <a href="../Supply/supply.html" class="nav-link">Supply Chain</a>
+      <a href="../Contact/contact.html" class="nav-link">Contact</a>
+      <div class="mobile-menu-actions">
+        <a
+          href="../Contact/contact.html"
+          class="btn btn-primary"
+          style="justify-content: center"
+          ><i class="fa-solid fa-phone-volume"></i> Get in Touch</a
+        >
+      </div>
+    </div>
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span>About Us</span>
+        </nav>
+        <span class="tag"
+          ><i class="fa-solid fa-seedling"></i> &nbsp;Our Story</span
+        >
+        <h1>Grown from the Ground Up</h1>
+        <p>
+          From a simple belief that South Africa's soil holds the answer to food
+          security, Dube Agribusiness was born, a startup with deep roots and
+          ambitious vision.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ STORY SECTION ============ -->
+    <section class="section-pad" style="background: var(--white)">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="tag"
+              ><i class="fa-solid fa-book-open"></i> &nbsp;Our Beginning</span
+            >
+            <h2>The Story Behind the Brand</h2>
+            <p>
+              Dube Agribusiness was founded with a singular purpose: to close
+              the gap between the abundance of South Africa's land and the food
+              insecurity faced by millions of its people. We are a startup, but
+              we carry the wisdom of generations of farmers in everything we do.
+            </p>
+            <p>
+              Starting from a modest smallholding in KwaZulu-Natal, we have
+              grown into a multifaceted agribusiness, farming, supplying, and
+              advocating for a more equitable food system. Our name, Dube, is a
+              call to action, it speaks of rising, of standing tall, of
+              elevation.
+            </p>
+            <p>
+              Every seed we plant, every harvest we collect, every delivery we
+              make is guided by our belief that agriculture done right can
+              transform communities, livelihoods, and the nation as a whole.
+            </p>
+            <div
+              style="
+                margin-top: 2rem;
+                display: flex;
+                gap: 16px;
+                flex-wrap: wrap;
+              "
+            >
+              <a href="../Products/products.html" class="btn btn-primary"
+                ><i class="fa-solid fa-basket-shopping"></i> Our Products</a
+              >
+              <a href="../Contact/contact.html" class="btn btn-outline"
+                ><i class="fa-solid fa-envelope"></i> Reach Out</a
+              >
+            </div>
+          </div>
+          <div class="about-images">
+            <div class="img-stack">
+              <div class="img-main">
+                <img
+                  src="https://images.pexels.com/photos/196643/pexels-photo-196643.jpeg"
+                  alt="Wide farmland"
+                />
+              </div>
+              <div class="img-secondary">
+                <img
+                  src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=700&q=80&fit=crop"
+                  alt="Farmers at work"
+                />
+              </div>
+              <div class="img-badge">
+                <div class="number">KZN</div>
+                <div class="label">Based Here</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSION CARDS ============ -->
+    <section class="mission-section section-pad">
+      <div class="container text-center">
+        <span class="tag"
+          ><i class="fa-solid fa-compass"></i> &nbsp;Our Direction</span
+        >
+        <h2>Mission, Vision &amp; Values</h2>
+        <p style="max-width: 560px; margin: 0 auto">
+          Three pillars that guide every decision, every harvest, and every
+          partnership at Dube Agribusiness.
+        </p>
+        <div class="mission-grid">
+          <div class="mission-card">
+            <div class="mission-card-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3>Our Mission</h3>
+            <p>
+              To deliver sustainable, high-quality agricultural produce and
+              supply solutions that uplift communities, support local farmers,
+              and contribute to South Africa's food security, profitably and
+              responsibly.
+            </p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-card-icon"><i class="fa-solid fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>
+              To become the most trusted and impactful agribusiness in
+              sub-Saharan Africa by 2035, recognised for excellence in farming,
+              supply chain innovation, and community empowerment.
+            </p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-card-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h3>Our Values</h3>
+            <p>
+              Integrity, sustainability, community, quality, and innovation.
+              These are not just words, they are the daily disciplines that
+              define how we grow, supply, and serve.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TIMELINE ============ -->
+    <section class="section-pad" style="background: var(--cream-dark)">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 4rem">
+          <span class="tag"
+            ><i class="fa-solid fa-timeline"></i> &nbsp;Our Journey</span
+          >
+          <h2>Milestones That Shaped Us</h2>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+          "
+          class="milestones-row"
+        >
+          <div
+            style="
+              background: var(--white);
+              border-radius: var(--radius-lg);
+              padding: 32px 24px;
+              border: 1px solid var(--border);
+              text-align: center;
+            "
+          >
+            <div
+              style="
+                font-family: var(--font-display);
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: var(--green-mid);
+                margin-bottom: 8px;
+              "
+            >
+              2026
+            </div>
+            <h4 style="margin-bottom: 8px">Founded</h4>
+            <p style="font-size: 0.875rem">
+              Dube Agribusiness officially registered and co-founded by four
+              directors in KwaZulu-Natal.
+            </p>
+          </div>
+          <div
+            style="
+              background: var(--white);
+              border-radius: var(--radius-lg);
+              padding: 32px 24px;
+              border: 1px solid var(--border);
+              text-align: center;
+            "
+          >
+            <div
+              style="
+                font-family: var(--font-display);
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: var(--green-mid);
+                margin-bottom: 8px;
+              "
+            >
+              Q2
+            </div>
+            <h4 style="margin-bottom: 8px">First Harvest</h4>
+            <p style="font-size: 0.875rem">
+              First successful vegetable harvest delivered to 3 local community
+              markets.
+            </p>
+          </div>
+          <div
+            style="
+              background: var(--white);
+              border-radius: var(--radius-lg);
+              padding: 32px 24px;
+              border: 1px solid var(--border);
+              text-align: center;
+            "
+          >
+            <div
+              style="
+                font-family: var(--font-display);
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: var(--green-mid);
+                margin-bottom: 8px;
+              "
+            >
+              Q3
+            </div>
+            <h4 style="margin-bottom: 8px">Supply Expansion</h4>
+            <p style="font-size: 0.875rem">
+              Signed first formal supply agreement with regional grocery
+              distributor.
+            </p>
+          </div>
+          <div
+            style="
+              background: var(--white);
+              border-radius: var(--radius-lg);
+              padding: 32px 24px;
+              border: 1px solid var(--green-mid);
+              text-align: center;
+              position: relative;
+              overflow: hidden;
+            "
+          >
+            <div
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: var(--green-mid);
+              "
+            ></div>
+            <div
+              style="
+                font-family: var(--font-display);
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: var(--green-mid);
+                margin-bottom: 8px;
+              "
+            >
+              Now
+            </div>
+            <h4 style="margin-bottom: 8px">Growing</h4>
+            <p style="font-size: 0.875rem">
+              Expanding hectarage, product lines, and national reach, building
+              for the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="team-section section-pad">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem">
+          <span class="tag"
+            ><i class="fa-solid fa-users"></i> &nbsp;The People</span
+          >
+          <h2>The Faces Behind the Farm</h2>
+          <p style="max-width: 540px; margin: 0 auto">
+            Four co-founders united by a shared vision, to build a sustainable,
+            community-driven vegetable business rooted in KwaZulu-Natal.
+          </p>
+        </div>
+        <div class="team-grid" style="grid-template-columns: repeat(4, 1fr)">
+          <div class="team-card">
+            <div class="team-img">
+              <img
+                src="../WhatsApp Image 2026-03-09 at 4.57.35 PM (4).jpeg"
+                alt="Dube Ntombizonke"
+              />
+            </div>
+            <div class="team-body">
+              <h3>Dube Ntombizonke</h3>
+              <div class="team-role">Co-Founder &amp; Director</div>
+              <p>
+                Visionary leader and driving force behind Dube Agribusiness.
+                Ntombizonke oversees the company's strategic direction and
+                stakeholder relationships.
+              </p>
+              <div class="team-social">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img">
+              <img
+                src="../WhatsApp Image 2026-03-09 at 4.57.34 PM (3).jpeg"
+                alt="Mthembu Thandeka"
+              />
+            </div>
+            <div class="team-body">
+              <h3>Mthembu Thandeka</h3>
+              <div class="team-role">Co-Founder &amp; Director</div>
+              <p>
+                Thandeka leads the company's operations and supply chain,
+                ensuring every vegetable that leaves the farm meets the highest
+                standards of quality.
+              </p>
+              <div class="team-social">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img">
+              <img
+                src="../WhatsApp Image 2026-03-09 at 4.57.35 PM (5).jpeg"
+                alt="Mvubu Nomfundo"
+              />
+            </div>
+            <div class="team-body">
+              <h3>Mvubu Nomfundo</h3>
+              <div class="team-role">Co-Founder &amp; Director</div>
+              <p>
+                Nomfundo drives the business's financial strategy, community
+                partnerships, and growth initiatives, connecting the farm to the
+                people it serves.
+              </p>
+              <div class="team-social">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-img">
+              <img
+                src="../WhatsApp Image 2026-03-09 at 4.57.37 PM (2).jpeg"
+                alt="Ngema Nokubonga"
+              />
+            </div>
+            <div class="team-body">
+              <h3>Ngema Nokubonga</h3>
+              <div class="team-role">Co-Founder &amp; Director</div>
+              <p>
+                Nokubonga oversees production, soil management, and vegetable
+                growing practices, ensuring the farm remains productive,
+                sustainable, and forward-thinking.
+              </p>
+              <div class="team-social">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-banner">
+      <div class="container text-center">
+        <div class="cta-inner">
+          <h2>Join the Dube Agribusiness Family</h2>
+          <p>
+            Whether you want to partner, supply, or simply learn more about what
+            we do, our door is always open.
+          </p>
+          <div class="cta-actions">
+            <a href="../Contact/contact.html" class="btn btn-light"
+              ><i class="fa-solid fa-envelope"></i> Contact Us</a
+            >
+            <a
+              href="Products/products.html"
+              class="btn btn-outline"
+              style="border-color: rgba(255, 255, 255, 0.4); color: white"
+              ><i class="fa-solid fa-basket-shopping"></i> Our Products</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="navbar-logo" style="margin-bottom: 1rem">
+              <div class="logo-img-wrap" style="pointer-events: none">
+                <span class="logo-placeholder"
+                  ><i class="fa-solid fa-seedling"></i
+                ></span>
+              </div>
+              <div class="logo-text">
+                <span class="logo-name">Dube Agribusiness</span
+                ><span class="logo-tagline">Rooted in Agriculture</span>
+              </div>
+            </div>
+            <p>
+              A proudly South African agricultural startup committed to
+              sustainable farming, premium produce, and building food security
+              across the nation.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="../index.html"
+                ><i class="fa-solid fa-chevron-right"></i> Home</a
+              >
+              <a href="../About/about.html"
+                ><i class="fa-solid fa-chevron-right"></i> About Us</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Products</a
+              >
+              <a href="../Supply/supply.html"
+                ><i class="fa-solid fa-chevron-right"></i> Supply Chain</a
+              >
+              <a href="../Contact/contact.html"
+                ><i class="fa-solid fa-chevron-right"></i> Contact</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Our Products</h4>
+            <div class="footer-links">
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Tomatoes</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Spinach &amp;
+                Cabbage</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Onions &amp;
+                Carrots</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Lettuce &amp;
+                Beetroot</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Green Peppers</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i
+              ><span>123 Farm Road, KwaZulu-Natal, South Africa</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i><span>+27 31 000 0000</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i
+              ><span>info@dubeagribusiness.co.za</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-clock"></i
+              ><span>Mon – Fri: 07:00 – 17:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span class="footer-copy"
+            >&copy; 2026 Dube Agribusiness. All rights reserved.</span
+          >
+          <span class="footer-credit"
+            >Developed &amp; Designed by <strong>Asanda Shezi</strong></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="../main.js"></script>
+  </body>
+</html>

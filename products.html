@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Produce</title>
+    <meta
+      name="description"
+      content="Browse Dube Agribusiness's full range of farm-fresh produce — vegetables grown with care in South Africa."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="index.html" class="navbar-logo">
+          <div class="logo-img-wrap">
+            <!-- LOGO: To update the logo, set the src attribute below to your image path and remove display:none -->
+            <img
+              src=""
+              alt="Dube Agribusiness Logo"
+              class="logo-img"
+              id="logoImg"
+              style="display: none"
+            />
+            <span class="logo-placeholder" id="logoPlaceholder">
+              <i class="fa-solid fa-seedling"></i>
+            </span>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Dube Agribusiness</span>
+            <span class="logo-tagline">Rooted in Agriculture</span>
+          </div>
+        </a>
+        <nav class="navbar-nav">
+          <a href="../index.html" class="nav-link">Home</a>
+          <a href="../About/about.html" class="nav-link">About</a>
+          <a href="../Products/products.html" class="nav-link active"
+            >Products</a
+          >
+          <a href="../Supply/supply.html" class="nav-link">Supply</a>
+          <a href="../Contact/contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="navbar-cta">
+          <a href="../Contact/contact.html" class="btn btn-primary"
+            ><i class="fa-solid fa-phone-volume"></i> Get in Touch</a
+          >
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="../About/about.html" class="nav-link">About Us</a>
+      <a href="../Products/products.html" class="nav-link">Products</a>
+      <a href="../Supply/supply.html" class="nav-link">Supply Chain</a>
+      <a href="../Contact/contact.html" class="nav-link">Contact</a>
+      <div class="mobile-menu-actions">
+        <a
+          href="../Contact/contact.html"
+          class="btn btn-primary"
+          style="justify-content: center"
+          ><i class="fa-solid fa-phone-volume"></i> Get in Touch</a
+        >
+      </div>
+    </div>
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span>Products</span>
+        </nav>
+        <span class="tag"
+          ><i class="fa-solid fa-basket-shopping"></i> &nbsp;What We Grow</span
+        >
+        <h1>Farm-Fresh, Field-to-Table</h1>
+        <p>
+          Every product from Dube Agribusiness is grown with purpose, harvested
+          at peak quality, and prepared for the journey to your table.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ FILTER BAR ============ -->
+    <div class="products-filter">
+      <div class="container">
+        <div class="filter-row">
+          <span
+            style="
+              font-size: 0.82rem;
+              font-weight: 600;
+              color: var(--text-light);
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+              margin-right: 8px;
+            "
+            >Filter:</span
+          >
+          <button class="filter-btn active" data-filter="all">
+            All Vegetables
+          </button>
+          <button class="filter-btn" data-filter="leafy">Leafy Greens</button>
+          <button class="filter-btn" data-filter="root">Root Vegetables</button>
+          <button class="filter-btn" data-filter="fruiting">
+            Fruiting Vegetables
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ PRODUCTS GRID ============ -->
+    <section class="section-pad" style="background: var(--cream)">
+      <div class="container">
+        <div class="products-full-grid">
+          <!-- Tomatoes — fruiting -->
+          <div class="product-full-card" data-category="fruiting">
+            <div class="product-full-img">
+              <img
+                src="https://images.pexels.com/photos/7388513/pexels-photo-7388513.jpeg"
+                alt="Tomatoes"
+              />
+              <span class="product-badge">Fresh Daily</span>
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Fruiting Vegetable</span>
+              <h3>Tomatoes</h3>
+              <p>
+                Vine-ripened tomatoes grown under shade nets for superior size,
+                rich flavour, and extended shelf life. Available in bulk and
+                retail grades.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-sun"></i> Shade-Grown</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-star"></i> Grade A</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Bulk Available</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Green Peppers — fruiting -->
+          <div class="product-full-card" data-category="fruiting">
+            <div class="product-full-img">
+              <img
+                src="https://images.pexels.com/photos/2893635/pexels-photo-2893635.jpeg"
+                alt="Green Peppers"
+              />
+              <span class="product-badge">Crisp &amp; Fresh</span>
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Fruiting Vegetable</span>
+              <h3>Green Peppers</h3>
+              <p>
+                Firm, glossy green peppers with a satisfying crunch and clean
+                flavour. Excellent for retail display, restaurant kitchens, and
+                salad mix suppliers.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-star"></i> Grade A</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-sun"></i> Open-Field Grown</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Bulk Available</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Spinach — leafy -->
+          <div class="product-full-card" data-category="leafy">
+            <div class="product-full-img">
+              <img
+                src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=700&q=80&fit=crop"
+                alt="Spinach"
+              />
+              <span class="product-badge">Nutrient-Rich</span>
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Leafy Green</span>
+              <h3>Spinach</h3>
+              <p>
+                Lush, dark-leafed spinach harvested fresh and delivered within
+                24 hours. A staple for households, restaurants, and food
+                manufacturers alike.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-leaf"></i> Pesticide-Free</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-droplet"></i> Drip-Irrigated</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Bundles &amp; Bulk</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Cabbage — leafy -->
+          <div class="product-full-card" data-category="leafy">
+            <div class="product-full-img">
+              <img
+                src="https://images.pexels.com/photos/134877/pexels-photo-134877.jpeg"
+                alt="Cabbage"
+              />
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Leafy Green</span>
+              <h3>Cabbage</h3>
+              <p>
+                Firm, heavy-headed green cabbage grown in fertile, well-amended
+                soil. Ideal for retail distribution, food service, and community
+                supply programmes.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-weight-hanging"></i> Heavy-Head
+                  Grade</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Bulk Available</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Lettuce — leafy -->
+          <div class="product-full-card" data-category="leafy">
+            <div class="product-full-img">
+              <img
+                src="https://images.pexels.com/photos/7542911/pexels-photo-7542911.jpeg"
+                alt="Lettuce"
+              />
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Leafy Green</span>
+              <h3>Lettuce</h3>
+              <p>
+                Crisp, fresh heads of lettuce, ideal for salads, hospitality
+                service, and retail packaging. Harvested to order for maximum
+                crispness on delivery.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-snowflake"></i> Cold-Chain Ready</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-leaf"></i> Chemical-Free</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Carrots — root -->
+          <div class="product-full-card" data-category="root">
+            <div class="product-full-img">
+              <img
+                src="https://images.unsplash.com/photo-1582515073490-39981397c445?w=700&q=80&fit=crop"
+                alt="Carrots"
+              />
+              <span class="product-badge">Sweet &amp; Firm</span>
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Root Vegetable</span>
+              <h3>Carrots</h3>
+              <p>
+                Uniformly shaped, deep-orange carrots with a naturally sweet
+                flavour. Washed and graded for retail, processing, or bulk
+                distribution.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-ruler"></i> Uniform Grade</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-droplet"></i> Drip-Irrigated</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Bulk Available</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Beetroot — root -->
+          <div class="product-full-card" data-category="root">
+            <div class="product-full-img">
+              <img
+                src="https://images.unsplash.com/photo-1593105544559-ecb03bf76f82?w=700&q=80&fit=crop"
+                alt="Beetroot"
+              />
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Root Vegetable</span>
+              <h3>Beetroot</h3>
+              <p>
+                Earthy, nutrient-dense beetroot supplied with or without tops.
+                Popular with food manufacturers, health-focused retailers, and
+                community schemes.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-heart"></i> Antioxidant-Rich</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> Loose or Topped</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Onions — root -->
+          <div class="product-full-card" data-category="root">
+            <div class="product-full-img">
+              <img
+                src="https://images.pexels.com/photos/7543162/pexels-photo-7543162.jpeg"
+                alt="Onions"
+              />
+              <span class="product-badge">Long Shelf Life</span>
+            </div>
+            <div class="product-full-body">
+              <span class="tag">Root Vegetable</span>
+              <h3>Onions</h3>
+              <p>
+                Dry-cured brown onions with excellent shelf life and sharp,
+                robust flavour. Supplied loose or bagged to suit retailer and
+                manufacturer requirements.
+              </p>
+              <div class="product-specs">
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-sun"></i> Sun-Dried &amp; Cured</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-certificate"></i> Grade A</span
+                >
+                <span class="spec-tag"
+                  ><i class="fa-solid fa-box"></i> 5kg – 25kg Bags</span
+                >
+              </div>
+              <a
+                href="../Contact/contact.html"
+                class="btn btn-primary"
+                style="width: 100%; justify-content: center"
+                ><i class="fa-solid fa-envelope"></i> Enquire Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ORDERING INFO ============ -->
+    <section class="section-pad" style="background: var(--white)">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3.5rem">
+          <span class="tag"
+            ><i class="fa-solid fa-truck-fast"></i> &nbsp;How to Order</span
+          >
+          <h2>Getting Produce from Us is Simple</h2>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+          "
+        >
+          <div style="text-align: center; padding: 32px 20px">
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                background: rgba(45, 106, 79, 0.08);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 1.25rem;
+                color: var(--green-mid);
+                font-size: 1.5rem;
+              "
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h4 style="margin-bottom: 0.5rem">1. Submit Enquiry</h4>
+            <p style="font-size: 0.875rem">
+              Fill in our contact form or send an email with your product
+              requirements.
+            </p>
+          </div>
+          <div style="text-align: center; padding: 32px 20px">
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                background: rgba(45, 106, 79, 0.08);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 1.25rem;
+                color: var(--green-mid);
+                font-size: 1.5rem;
+              "
+            >
+              <i class="fa-solid fa-file-contract"></i>
+            </div>
+            <h4 style="margin-bottom: 0.5rem">2. Receive Quote</h4>
+            <p style="font-size: 0.875rem">
+              We provide a detailed quote with pricing, quantities, and delivery
+              timeline.
+            </p>
+          </div>
+          <div style="text-align: center; padding: 32px 20px">
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                background: rgba(45, 106, 79, 0.08);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 1.25rem;
+                color: var(--green-mid);
+                font-size: 1.5rem;
+              "
+            >
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <h4 style="margin-bottom: 0.5rem">3. Confirm Order</h4>
+            <p style="font-size: 0.875rem">
+              Review and confirm the order. We handle all logistics and
+              cold-chain packaging.
+            </p>
+          </div>
+          <div style="text-align: center; padding: 32px 20px">
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                background: rgba(45, 106, 79, 0.08);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 1.25rem;
+                color: var(--green-mid);
+                font-size: 1.5rem;
+              "
+            >
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <h4 style="margin-bottom: 0.5rem">4. Fresh Delivery</h4>
+            <p style="font-size: 0.875rem">
+              Your produce is delivered fresh, on time, and exactly as
+              specified.
+            </p>
+          </div>
+        </div>
+        <div class="text-center" style="margin-top: 2.5rem">
+          <a href="../Contact/contact.html" class="btn btn-primary"
+            ><i class="fa-solid fa-envelope"></i> Place an Enquiry</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-banner">
+      <div class="container text-center">
+        <div class="cta-inner">
+          <h2>Looking for a Reliable Agri-Supply Partner?</h2>
+          <p>
+            We supply retailers, restaurants, NGOs, food manufacturers, and
+            community programmes across South Africa.
+          </p>
+          <div class="cta-actions">
+            <a href="../Contact/contact.html" class="btn btn-light"
+              ><i class="fa-solid fa-envelope"></i> Contact Us</a
+            >
+            <a
+              href="../Supply/supply.html"
+              class="btn btn-outline"
+              style="border-color: rgba(255, 255, 255, 0.4); color: white"
+              ><i class="fa-solid fa-route"></i> Our Supply Chain</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="navbar-logo" style="margin-bottom: 1rem">
+              <div class="logo-img-wrap" style="pointer-events: none">
+                <span class="logo-placeholder"
+                  ><i class="fa-solid fa-seedling"></i
+                ></span>
+              </div>
+              <div class="logo-text">
+                <span class="logo-name">Dube Agribusiness</span
+                ><span class="logo-tagline">Rooted in Agriculture</span>
+              </div>
+            </div>
+            <p>
+              A proudly South African agricultural startup committed to
+              sustainable farming, premium produce, and food security.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="../index.html"
+                ><i class="fa-solid fa-chevron-right"></i> Home</a
+              >
+              <a href="../About/about.html"
+                ><i class="fa-solid fa-chevron-right"></i> About Us</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Products</a
+              >
+              <a href="../Supply/supply.html"
+                ><i class="fa-solid fa-chevron-right"></i> Supply Chain</a
+              >
+              <a href="../Contact/contact.html"
+                ><i class="fa-solid fa-chevron-right"></i> Contact</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Our Products</h4>
+            <div class="footer-links">
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Tomatoes</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Spinach &amp;
+                Cabbage</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Onions &amp;
+                Carrots</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Lettuce &amp;
+                Beetroot</a
+              >
+              <a href="../Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Green Peppers</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i
+              ><span>123 Farm Road, KwaZulu-Natal</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i><span>+27 31 000 0000</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i
+              ><span>info@dubeagribusiness.co.za</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-clock"></i
+              ><span>Mon – Fri: 07:00 – 17:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span class="footer-copy"
+            >&copy; 2026 Dube Agribusiness. All rights reserved.</span
+          >
+          <span class="footer-credit"
+            >Developed &amp; Designed by <strong>Asanda Shezi</strong></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="../main.js"></script>
+  </body>
+</html>

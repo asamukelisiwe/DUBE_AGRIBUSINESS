@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dube Agribusiness — Rooted in Agriculture, Growing the Future</title>
+    <meta
+      name="description"
+      content="Dube Agribusiness is a South African agricultural startup delivering premium farm produce, sustainable supply solutions, and agri-innovation."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="index.html" class="navbar-logo">
+          <div class="logo-img-wrap">
+            <!-- LOGO: To update the logo, set the src attribute below to your image path and remove display:none -->
+            <img
+              src=""
+              alt="Dube Agribusiness Logo"
+              class="logo-img"
+              id="logoImg"
+              style="display: none"
+            />
+            <span class="logo-placeholder" id="logoPlaceholder">
+              <i class="fa-solid fa-seedling"></i>
+            </span>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Dube Agribusiness</span>
+            <span class="logo-tagline">Rooted in Agriculture</span>
+          </div>
+        </a>
+
+        <nav class="navbar-nav">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="About/about.html" class="nav-link">About</a>
+          <a href="Products/products.html" class="nav-link">Products</a>
+          <a href="Supply/supply.html" class="nav-link">Supply</a>
+          <a href="Contact/contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="navbar-cta">
+          <a href="Contact/contact.html" class="btn btn-primary">
+            <i class="fa-solid fa-phone-volume"></i> Get in Touch
+          </a>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="About/about.html" class="nav-link">About Us</a>
+      <a href="Products/products.html" class="nav-link">Products</a>
+      <a href="Supply/supply.html" class="nav-link">Supply Chain</a>
+      <a href="Contact/contact.html" class="nav-link">Contact</a>
+      <div class="mobile-menu-actions">
+        <a
+          href="Contact/contact.html"
+          class="btn btn-primary"
+          style="justify-content: center"
+        >
+          <i class="fa-solid fa-phone-volume"></i> Get in Touch
+        </a>
+      </div>
+    </div>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1800&q=80&fit=crop"
+          alt="Farmlands at sunrise"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="tag"
+            ><i class="fa-solid fa-leaf"></i> &nbsp;South African
+            Agribusiness</span
+          >
+          <h1>
+            Nurturing Land,<br />
+            <em>Feeding the Nation</em>
+          </h1>
+          <p>
+            Dube Agribusiness is a proudly South African startup dedicated to
+            sustainable farming, premium produce, and reliable agri-supply
+            solutions that connect the farm to your table.
+          </p>
+          <div class="hero-actions">
+            <a href="Products/products.html" class="btn btn-light">
+              <i class="fa-solid fa-basket-shopping"></i> Our Products
+            </a>
+            <a
+              href="About/about.html"
+              class="btn btn-outline"
+              style="border-color: rgba(255, 255, 255, 0.5); color: white"
+            >
+              <i class="fa-solid fa-circle-info"></i> Our Story
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span></span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ============ STATS BAR ============ -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-count="50" data-suffix="+">0+</div>
+            <div class="stat-label">Hectares Farmed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="8" data-suffix="">0</div>
+            <div class="stat-label">Crop Varieties</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="15" data-suffix="+">0+</div>
+            <div class="stat-label">Supply Partners</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="2" data-suffix="">0</div>
+            <div class="stat-label">Provinces Reached</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT PREVIEW ============ -->
+    <section class="about-preview section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images">
+            <div class="img-stack">
+              <div class="img-main">
+                <img
+                  src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=900&q=80&fit=crop"
+                  alt="Farmer tending crops"
+                />
+              </div>
+              <div class="img-secondary">
+                <img
+                  src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=700&q=80&fit=crop"
+                  alt="Fresh harvest"
+                />
+              </div>
+              <div class="img-badge">
+                <div class="number">Est.</div>
+                <div class="label">2026</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-text">
+            <span class="tag"
+              ><i class="fa-solid fa-seedling"></i> &nbsp;Who We Are</span
+            >
+            <h2>Agriculture That Works for People and Planet</h2>
+            <p>
+              Born in 2026 from a passion for the soil and a vision for a
+              food-secure South Africa, Dube Agribusiness bridges the gap
+              between the farm and the communities we serve.
+            </p>
+            <p>
+              We practice responsible agriculture, leveraging modern techniques,
+              indigenous knowledge, and strategic partnerships to produce
+              high-quality crops, livestock products, and agri-supply solutions.
+            </p>
+            <div class="values-row">
+              <div class="value-item">
+                <div class="value-icon">
+                  <i class="fa-solid fa-sun-plant-wilt"></i>
+                </div>
+                <div>
+                  <h4>Sustainability</h4>
+                  <p>
+                    We farm in harmony with nature, minimising waste and
+                    preserving the land for generations to come.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">
+                  <i class="fa-solid fa-handshake"></i>
+                </div>
+                <div>
+                  <h4>Community First</h4>
+                  <p>
+                    Empowering local farmers, creating jobs, and reinvesting in
+                    the communities we call home.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon"><i class="fa-solid fa-flask"></i></div>
+                <div>
+                  <h4>Innovation</h4>
+                  <p>
+                    Blending modern agri-tech with proven practices to deliver
+                    consistently superior results.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon"><i class="fa-solid fa-medal"></i></div>
+                <div>
+                  <h4>Quality</h4>
+                  <p>
+                    Every product that leaves our farm meets the highest
+                    standards of freshness and safety.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="About/about.html" class="btn btn-primary">
+              <i class="fa-solid fa-arrow-right"></i> Learn Our Story
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS PREVIEW ============ -->
+    <section class="products-preview section-pad">
+      <div class="container text-center">
+        <span class="tag"
+          ><i class="fa-solid fa-basket-shopping"></i> &nbsp;What We Grow</span
+        >
+        <h2>Farm-Fresh Products, Direct to You</h2>
+        <p>
+          From field to table, our produce is grown with care, harvested at peak
+          freshness, and delivered with pride.
+        </p>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-card-img">
+              <img
+                src="https://images.pexels.com/photos/4671829/pexels-photo-4671829.jpeg"
+                alt="Tomatoes"
+              />
+            </div>
+            <div class="product-card-body">
+              <span class="tag">Fruiting Vegetable</span>
+              <h3>Tomatoes</h3>
+              <p>
+                Vine-ripened and shade-grown tomatoes, harvested at peak
+                freshness for retail and bulk supply.
+              </p>
+              <div class="product-card-footer">
+                <a href="Products/products.html" class="product-card-link"
+                  >Explore <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=700&q=80&fit=crop"
+                alt="Spinach and Cabbage"
+              />
+            </div>
+            <div class="product-card-body">
+              <span class="tag">Leafy Greens</span>
+              <h3>Spinach &amp; Cabbage</h3>
+              <p>
+                Fresh pesticide-free spinach and firm-headed cabbage, staples
+                for households and food service across South Africa.
+              </p>
+              <div class="product-card-footer">
+                <a href="Products/products.html" class="product-card-link"
+                  >Explore <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1582515073490-39981397c445?w=700&q=80&fit=crop"
+                alt="Carrots Beetroot Onions"
+              />
+            </div>
+            <div class="product-card-body">
+              <span class="tag">Root Vegetables</span>
+              <h3>Carrots, Beetroot &amp; Onions</h3>
+              <p>
+                Uniformly graded root vegetables grown in deep, fertile soil,
+                rich in flavour with excellent shelf life.
+              </p>
+              <div class="product-card-footer">
+                <a href="Products/products.html" class="product-card-link"
+                  >Explore <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta-banner">
+      <div class="container text-center">
+        <div class="cta-inner">
+          <span
+            class="tag"
+            style="
+              color: rgba(255, 255, 255, 0.7);
+              background: rgba(255, 255, 255, 0.1);
+              border-color: rgba(255, 255, 255, 0.2);
+            "
+          >
+            <i class="fa-solid fa-handshake"></i> &nbsp;Partner With Us
+          </span>
+          <h2>Ready to Source Premium South African Produce?</h2>
+          <p>
+            Whether you're a retailer, restaurant, or community organisation,
+            Dube Agribusiness has a supply solution built for you.
+          </p>
+          <div class="cta-actions">
+            <a href="Contact/contact.html" class="btn btn-light">
+              <i class="fa-solid fa-envelope"></i> Send an Enquiry
+            </a>
+            <a
+              href="Products/products.html"
+              class="btn btn-outline"
+              style="border-color: rgba(255, 255, 255, 0.4); color: white"
+            >
+              <i class="fa-solid fa-basket-shopping"></i> Browse Products
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="navbar-logo" style="margin-bottom: 1rem">
+              <div class="logo-img-wrap">
+                <span class="logo-placeholder"
+                  ><i class="fa-solid fa-seedling"></i
+                ></span>
+              </div>
+              <div class="logo-text">
+                <span class="logo-name">Dube Agribusiness</span>
+                <span class="logo-tagline">Rooted in Agriculture</span>
+              </div>
+            </div>
+            <p>
+              A proudly South African agricultural startup committed to
+              sustainable farming, premium produce, and building food security
+              across the nation.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="footer-social-link"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="index.html"
+                ><i class="fa-solid fa-chevron-right"></i> Home</a
+              >
+              <a href="About/about.html"
+                ><i class="fa-solid fa-chevron-right"></i> About Us</a
+              >
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Products</a
+              >
+              <a href="Supply/supply.html"
+                ><i class="fa-solid fa-chevron-right"></i> Supply Chain</a
+              >
+              <a href="Contact/contact.html"
+                ><i class="fa-solid fa-chevron-right"></i> Contact</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Our Products</h4>
+            <div class="footer-links">
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Tomatoes</a
+              >
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Spinach &amp;
+                Cabbage</a
+              >
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Onions &amp;
+                Carrots</a
+              >
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Lettuce &amp;
+                Beetroot</a
+              >
+              <a href="Products/products.html"
+                ><i class="fa-solid fa-chevron-right"></i> Green Peppers</a
+              >
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>123 Farm Road, KwaZulu-Natal, South Africa</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+27 31 000 0000</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@dubeagribusiness.co.za</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-clock"></i>
+              <span>Mon – Fri: 07:00 – 17:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span class="footer-copy"
+            >&copy; 2026 Dube Agribusiness. All rights reserved.</span
+          >
+          <span class="footer-credit"
+            >Developed &amp;Designed by <strong>Asanda Shezi</strong></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
